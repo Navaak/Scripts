@@ -1,3 +1,5 @@
+#!/bin/bash
+
 
 # output scale = 426x240
 ffmpeg -i $orginal_file -codec:v libx264 -profile:v baseline -preset slow -b:v 300k -maxrate 600k -bufsize 600k -vf scale=426x240 -threads 0 -codec:a libfdk_aac -b:a 96k $filne_name'.240.mp4'
