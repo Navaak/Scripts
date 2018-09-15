@@ -1,4 +1,4 @@
-A collection of simple Bash scripts which we use in navaak.com
+A collection of simple scripts which we use in navaak.com
 
 ## ffmpeg
 
