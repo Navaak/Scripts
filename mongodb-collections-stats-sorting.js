@@ -1,4 +1,4 @@
-
+# The following example converts the returned values to Megabytes:
 
 var scaleInMB = 1048576;
 var stats = [];
